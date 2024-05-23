@@ -1,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6,p{
+    overflow: hidden;
+}
+
+/* ======================================= nav section start ============================================== */
+
+nav img{
+    width: 70%;
+    height: auto;
+}
+nav a{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/* ======================================= nav section end ============================================== */
+
+/* ======================================= fisrt section strat ============================================== */
+
+.first-section{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://image.slidesdocs.com/responsive-images/background/abundant-copy-room-showcased-in-3d-visualization-of-hospital-interior-powerpoint-background_59be8096ee__960_540.jpg');
+    background-size: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+}
+.first-sec-text-1 h1{
+    width: 100%;
+    padding: 70px 20px 0px 0px;
+    overflow: hidden;
+    height: 100%;
+    text-align: left;
+    font-size: 50px;
+    text-shadow: 2px 5px 10px #000;
+}
+.first-sec-text-1 p{
+    width: 100%;
+    padding: 0px 20px 0px 0px;
+    font-size: 13px;
+    text-shadow: 2px 5px 10px #000;
+}
+.first-sec-button button{
+    border: 2px solid #fff;
+    text-shadow: 2px 5px 10px #000;
+}
+
+/* ======================================= fisrt section end ============================================== */
+/* ======================================= second section start ============================================== */
+
+.second-section{
+    width: 100%;
+    height: auto;
+}
+.second-section img{
+    width: 60%;
+    height: 120px;
+    border-radius: 200px;
+}
+
+/* ======================================= second section end ============================================== */
+/* ======================================= third section start ============================================== */
+
+.third-section-part-1{
+    width: 100%;
+    height: auto;
+}
+.third-section-part-1 img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 0px;
+}
+.third-section-part-2 img{
+    width: 100%;
+    height: 250px;
+    border-radius: 0px 20px;
+}
+.third-section-part-2 a{
+    color: #000;
+}
+.third-section-part-2 a:hover{
+    color: rgb(130, 0, 252);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ======================================= third section end ============================================== */
+/* ======================================= fifth section start ============================================== */
+
+.fifth-section{
+    width: 100%;
+    height: auto;
+}
+.fifth-section a i{
+    font-size: 40px;
+    overflow: hidden;
+    border-radius: 150px;
+    background-color: rgb(231, 243, 241);
+    padding: 20px;
+}
+
+/* ======================================= fifth section end ============================================== */
+/* ======================================= sixth section start ============================================== */
+
+.sixth-section{
+    width: 100%;
+    height: auto;
+    background-image: url('https://img.freepik.com/free-photo/doctor-taking-care-afro-american-child_23-2151159922.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716422400&semt=ais_user');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.sixth-section{
+    opacity: 0.5;
+}
+.sixth-section a i{
+    padding: 100px 0px;
+    overflow: hidden;
+    color: #fff;
+}
+
+/* ======================================= sixth section end ============================================== */
+/* ======================================= seventh section start ============================================== */
+
+.seventh-section{
+    width: 100%;
+    height: auto;
+}
+.seventh-section a{
+    height: 150px;
+}
+.seventh-section a i{
+    width: auto;
+    height: auto;
+    color: #fff;
+    background: rgb(111, 111, 215);
+    border-radius: 100px;
+    padding: 30px;
+    box-shadow: 2px 2px 10px blue;
+}
+
+/* ======================================= seventh section end ============================================== */
+
+/* ======================================= footer section start ============================================== */
+
+.footer{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    background: #000;
+}
+.footer p,h5{
+    padding: 10px 0px;
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+.footer input{
+    border: 20x solid #fff;
+    background: transparent;
+    padding: 10px;
+}
+.footer button{
+    border: 2px solid blue;
+    background: blue;
+    color: #fff;
+    margin: 10px 0px;
+}
+/* ======================================= footer section end ============================================== */
+/* ======================================= responsive section start ============================================== */
+
+@media (max-width:780px){
+    .first-section{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+    .first-section h1{
+        font-size: 20px;
+    }
+    .first-section p{
+        font-size: 10px;
+    }
+    button a{
+        padding: 1px;
+        font-size: 10px;
+    }
+    .second-section h3,p,a{
+        font-size: 10px;
+    }
+    .second-section img{
+        width: 100px;
+        height: 100px;
+    }
+    .third-section-part-1 h2{
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+    .third-section-part-1 button {
+        font-size: 10px;
+    }
+    .third-section-part-2 h4,h2{
+        font-size: 15px;
+    }
+    .third-section-part-2 p{
+        font-size: 10px;
+    }
+    .fifth-section .part-1 h4{
+        font-size: 10px;
+    }
+    .fifth-section h3{
+        font-size: 20px;
+    }
+    .sixth-section{
+        background-size: cover;
+    }
+    .seventh-section h3{
+        font-size: 15px;
+    }
+    .seventh-section p{
+        font-size: 10px;
+    }
+    label{
+        font-size: 10px;
+    }
+}
+
+/* ======================================= responsive section end ============================================== */
